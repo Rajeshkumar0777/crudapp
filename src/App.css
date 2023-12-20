@@ -1,0 +1,167 @@
+.App {
+  margin: 0px;
+  display: table;
+  margin-right: auto;
+  margin-left: auto;
+}
+.table{
+  margin-top: 9rem;
+}
+.span{
+  color: green;
+}
+h2{
+  margin: 2rem;
+  margin-top: 3rem;
+}
+span{
+  color: red;
+  margin-left:1rem ;
+}
+.A{
+  margin-top: 0px;
+  position: fixed;
+  padding-bottom: 0.3rem;
+  padding-top:0.3rem ;
+  background-color: rgb(63, 62, 62);
+  width: 100%;
+}
+ul{
+  margin: 0px;
+}
+label{
+  display: block;
+  margin: 2rem;
+}
+h1{
+  display: inline;
+  color: coral;
+}
+table,th,td{
+  margin-top: 5rem;
+  padding: 1.2rem;
+  border: solid black;
+  border-collapse: collapse;
+  font-size: 1.7rem;
+}
+button{
+  margin:0.1rem;
+  background-color: rgb(41, 75, 210);
+  color: white;
+  border: none;
+  font-size: 1rem;
+  padding:0.22rem 0.57rem;
+  border-radius: 0.26rem;
+}
+.delete{
+  background-color: red;
+}
+button:hover{
+  background-color: rgb(19, 220, 49);
+}
+td{
+  color: blue;
+}
+table{
+  display: table;
+  margin-right: auto;
+  margin-left: auto;
+  border-width: 0.1rem;
+}
+
+.add{
+display: table;
+margin-left:auto ;
+margin-right: auto;
+margin-top: 3rem;
+transition: 0.4s;
+font-size: 1.6rem;
+}
+
+
+li{
+  list-style-type: none;
+  display: inline;
+  margin-left: 12rem;
+  font-size: 2rem;
+  text-decoration: none ;
+  color: rgb(142, 134, 134);
+  background-color: rgb(63, 62, 62);
+  
+  padding:0.08rem 0.8rem ;
+  border-radius: 0.4rem;
+  transition: 0.4s;
+}
+li:hover{
+  background-color:rgb(138, 95, 9);
+}
+a{
+  color: rgb(38, 240, 11);
+  text-decoration: none ;
+}
+ul{
+  list-style: none;
+}
+label{
+  font-size: 1.7rem;
+ margin: 1rem 0px 1.7rem 0px;
+ 
+}
+
+input{
+  outline: none;
+  font-size: 1.2rem;
+  border: none;
+  width: 30rem;
+ border-bottom: solid;
+ border-color: rgb(133, 162, 168);
+ color: blue;
+}
+@media screen and (min-width:800px) and (max-width:1314px) {
+  html{
+    font-size: 60%;
+  }
+}
+@media screen and (min-width:700px) and (max-width:800px) {
+  html{
+    font-size: 53%;
+  }
+}
+@media screen and (min-width:600px) and (max-width:700px) {
+  html{
+    font-size: 45%;
+  }
+}
+@media screen and (min-width:500px) and (max-width:600px) {
+  html{
+    font-size: 37%;
+  }
+  table{
+    border-width: 0.01rem;
+  }
+}
+@media screen and (min-width:450px) and (max-width:500px) {
+  html{
+    font-size: 33.5%;
+  }
+}
+@media screen and (min-width:400px) and (max-width:450px) {
+  html{
+    font-size: 29.5%;
+  }
+}
+@media screen and (min-width:350px) and (max-width:400px) {
+  html{
+    font-size: 26%;
+  }
+}
+@media screen and (min-width:300px) and (max-width:350px) {
+  html{
+    font-size: 22%;
+  }
+}
+@media screen and (min-width:200px) and (max-width:300px) {
+  html{
+    font-size: 14%;
+  }
+}
